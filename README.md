@@ -525,3 +525,10 @@ Demo cars are not automatically created. Cars should be created through the real
 
 # Premium
 - Upgrade account to Premium
+
+# Docker
+The application can be started with Docker Compose.
+Docker Compose starts two containers:
+- Spring Boot application
+- MySQL database
+The application container connects to MySQL using the Docker service name.
